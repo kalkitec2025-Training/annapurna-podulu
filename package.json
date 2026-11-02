@@ -1,0 +1,11 @@
+{
+  "name": "annapurna-podulu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Annapurna Podulu online shop (PWA + Node server)",
+  "scripts": {
+    "start": "node server/server.js",
+    "demo": "DEMO_OTP=1 node server/server.js"
+  },
+  "engines": { "node": ">=18" }
+}

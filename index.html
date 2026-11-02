@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Annapurna Podulu</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Homemade Andhra podis from Akkayyapalem, Visakhapatnam. Order Karivepaku, Kandi, Nuvvula, Munagaku, Idly Karam, Sambar and Rasam podi. Pay by PhonePe / UPI.">
+<meta name="theme-color" content="#7a1f22">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" href="icons/favicon.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Annapurna">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#shop" aria-label="Annapurna Podulu home">
+      <img src="img/logo-160.png" alt="" width="46" height="46">
+      <span><b>Annapurna</b><small>Podulu</small></span>
+    </a>
+    <nav aria-label="Main">
+      <a class="navlink only-wide" href="#shop" data-nav="shop">Shop</a>
+      <a class="navlink only-wide" href="#orders" data-nav="orders">My orders</a>
+      <a class="navlink only-wide" href="#account" data-nav="account">Account</a>
+      <a class="navlink cartbtn" href="#cart" data-nav="cart" aria-label="Cart">
+        <svg class="i" viewBox="0 0 24 24"><path d="M5 8h14l-1.2 11.1a2 2 0 0 1-2 1.9H8.2a2 2 0 0 1-2-1.9L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="only-wide">Cart</span><span class="badge" data-cartcount hidden>0</span>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="view" tabindex="-1"></main>
+
+<nav class="tabs" aria-label="App">
+  <a href="#shop" data-nav="shop"><svg class="i" viewBox="0 0 24 24"><path d="M3 10.5 12 4l9 6.5"/><path d="M5 9.5V20h14V9.5"/><path d="M10 20v-5h4v5"/></svg>Shop</a>
+  <a href="#cart" data-nav="cart"><svg class="i" viewBox="0 0 24 24"><path d="M5 8h14l-1.2 11.1a2 2 0 0 1-2 1.9H8.2a2 2 0 0 1-2-1.9L5 8Z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>Cart<span class="badge" data-cartcount hidden>0</span></a>
+  <a href="#orders" data-nav="orders"><svg class="i" viewBox="0 0 24 24"><path d="M7 3h10v18l-2.5-1.5L12 21l-2.5-1.5L7 21V3Z"/><path d="M10 8h4M10 12h4"/></svg>Orders</a>
+  <a href="#account" data-nav="account"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>Account</a>
+</nav>
+
+<div id="layer"></div>
+
+<script src="js/qrcode.js"></script>
+<script src="js/data.js"></script>
+<script src="js/store.js"></script>
+<script src="js/app.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

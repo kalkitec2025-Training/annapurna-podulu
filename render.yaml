@@ -1,0 +1,18 @@
+# Render Blueprint — free demo deployment
+services:
+  - type: web
+    name: annapurna-podulu
+    runtime: node
+    plan: free
+    buildCommand: echo "no build needed"
+    startCommand: node server/server.js
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: DEMO_OTP          # shows the login code on screen (no SMS yet). Remove for the real launch!
+        value: "1"
+      - key: DEMO_SEED         # pre-loads 3 example orders whenever the server starts fresh
+        value: "1"
+      - key: ADMIN_PIN
+        value: "1234"
