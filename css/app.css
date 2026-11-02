@@ -33,15 +33,8 @@
   --num: 'Fraunces', Georgia, serif;
   --r: 14px;
   --tab-h: 64px;
+  color-scheme: light;   /* brand look stays light even when the phone is in dark mode */
 }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
-  --paper: #1c130f; --paper-2: #24180f; --card: #2a1d15; --ink: #f3e5c8; --ink-soft: #c9b08c;
-  --maroon: #d9837a; --maroon-ink: #1c130f; --leaf: #8cbf6a; --brass: #d9ac57; --kraft: #8a6a44; --line: #3d2b1f; --chilli: #f07a55;
-  --ok: #7ccb86; --warn: #e5b45a; --bad: #f08a80; --info: #8ab8e0; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35); color-scheme: dark; } }
-:root[data-theme="dark"] {
-  --paper: #1c130f; --paper-2: #24180f; --card: #2a1d15; --ink: #f3e5c8; --ink-soft: #c9b08c;
-  --maroon: #d9837a; --maroon-ink: #1c130f; --leaf: #8cbf6a; --brass: #d9ac57; --kraft: #8a6a44; --line: #3d2b1f; --chilli: #f07a55;
-  --ok: #7ccb86; --warn: #e5b45a; --bad: #f08a80; --info: #8ab8e0; --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px rgba(0,0,0,.35); color-scheme: dark; }
 
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }

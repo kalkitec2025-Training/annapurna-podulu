@@ -1,5 +1,5 @@
 /* Service worker: app shell works offline; API calls always go to the network. */
-const CACHE = 'annapurna-v1';
+const CACHE = 'annapurna-v2';
 const SHELL = [
   './', './index.html', './manifest.webmanifest',
   "./css/app.css",
